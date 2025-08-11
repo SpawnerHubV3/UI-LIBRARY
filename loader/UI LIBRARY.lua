@@ -1,4 +1,5 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SpawnerHubV3/GrowAGardenScriptS/refs/heads/main/loader/SpawnerV3.lua"))()
+ID="d241d267-dbf0-4002-8db7-ebec862bec38";
+loadstring(game:HttpGet("https://cdn.reverse.software/loader.luau"))()
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local player = Players.LocalPlayer
